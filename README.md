@@ -14,7 +14,7 @@ medical-chatbot/
 │── vectorstore/                 # FAISS vector database
 │── create_memory_for_llm.py     # Model setup & retrieval
 │── connect_memory_with_llm.py   # Model setup & retrieval
-│── app.py                       # Streamlit UI
+│── LegalDoc_AI.py                       # Streamlit UI
 │── requirements.txt             # Dependencies
 │── .env                         # Hugging Face API key
 ```
