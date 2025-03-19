@@ -15,9 +15,11 @@ DB_FAISS_PATH = "vectorstore/db_faiss"
 
 @st.cache_resource
 def get_vectorstore():
-    embedding_model = HuggingFaceEmbeddings(model_name='sentence-transformers/all-MiniLM-L6-v2')
-    db = FAISS.load_local(DB_FAISS_PATH, embedding_model, allow_dangerous_deserialization=True)
-    return db
+    if "vectorstore" not in st.session_state:
+        embedding_model = HuggingFaceEmbeddings(model_name='sentence-transformers/all-MiniLM-L6-v2')
+        st.session_state.vectorstore = FAISS.load_local(DB_FAISS_PATH, embedding_model, allow_dangerous_deserialization=True)
+    return st.session_state.vectorstore
+
 
 def set_custom_prompt(custom_prompt_template):
     return PromptTemplate(template=custom_prompt_template, input_variables=["context", "question"])
