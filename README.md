@@ -23,8 +23,8 @@ medical-chatbot/
 ## Output
 <table>
   <tr>
-    <td><img src="https://github.com/user-attachments/assets/8e968494-2ccb-4478-be78-dcf85e9387b3" width="600"></td>
-    <td><img src="https://github.com/user-attachments/assets/c88efaf2-9c23-4c57-bf32-697b9e7d08dd" width="600"></td>
+    <td><img src="https://github.com/user-attachments/assets/398eb58c-a5af-4806-a99c-6b922d8614c6" width="600"></td>
+    <td><img src="https://github.com/user-attachments/assets/f65c3f32-e97f-4c50-87ee-52d9d7113fbc" width="600"></td>
   </tr>
 </table>
 
@@ -204,6 +204,8 @@ streamlit run app.py
 
 <table>
   <tr>
-    <td><img src="https://github.com/user-attachments/assets/6e18c9d8-831e-4daa-8a50-2a8be60d8235" height="600" width="1200"></td>
+    <td><img src="https://github.com/user-attachments/assets/f50660b1-e903-4af4-b71b-07ef75b85f97" height="600" width="1200"></td>
   </tr>
 </table>
+
+
